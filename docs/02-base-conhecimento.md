@@ -6,10 +6,10 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
+| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores, ou seja, tem o reconhecimento do cliente de forma mais eficiente |
+| `perfil_investidor.json` | JSON | Personalizar explicações e duvidas sobre as necessidades do cliente |
+| `produtos_financeiros.json` | JSON | Conhecer os produtos disponiveis para que eles possam ser ensinados ao cliente |
+| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente e utilizar a informação de forma didatica |
 
 > [!TIP]
 > **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
@@ -20,8 +20,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
-
+O fundo  multimercado foi substituido pelo produto imobiliário (FII), pois o produto financeiro é mais conhecido assim garanto a validação de resposta mais acertivas
 ---
 
 ## Estratégia de Integração
