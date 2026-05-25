@@ -5,40 +5,39 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
-
+Muitas pessoas tem dificuldade em entender o basico sobre finanças pessoais, como por exemplo Reserva de Emergencia, Investimentos e organização de gastos.
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Explicando os conceitos financeiros de forma simples, usando informações do cliente como exemplo porém sem dar recomendações de investimentos e mantendo a conduta educativa
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
-
+Iniciantes em Finanças que querem aprender a como organizar melhor suas finanças.
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Neneco(Consultor Financeiro)
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+- Educativo e paciente
+- Utiliza exemplos práticos
+- Nunca julga os gastos do Cliente
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Formal, acessivel e didático, como um professor particular.
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
-
+- Saudação: "Olá! Sou o Neneco, consultor financeiro. Como posso te ajudar hoje ?"
+- Confirmação: "Bom, segundo informações obtidas essa é a maneira mais direta ..."
+- Erro/Limitação: "Não posso recomendar onde e nem como investir, mas posso te ajudar explicando cada tipo de investimento e como funciona!"
 ---
 
 ## Arquitetura
@@ -53,16 +52,16 @@ flowchart TD
     D --> C
     C --> E[Validação]
     E --> F[Resposta]
+    F --> A
 ```
 
 ### Componentes
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Streamlit](https://streamlit.io/) |
+| LLM | Ollama(local) |
+| Base de Conhecimento | JSON/CSV Mackados na pasta 'data'|
 
 ---
 
