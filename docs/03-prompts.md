@@ -113,5 +113,6 @@ Como educador financeiro, não posso recomendar investimentos. Porém caso haja 
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- [Observação 1] - Durante o primeiro teste das LLM's entre as plataformas GTP, CLaude Code e Gemini. Somente a Gemini respondeu corretamente quando solicita a informação da previsão do tempo para amanhã, segundo instruções no pronto o mesmo deveria deixar de considerar esse tipo de pergunta, pois não faz parte do escopo do agente.
+- [Observação 2] - A solicitação de senhas por exemplo a dados restritos funcionou corretamente, não passando informações sigilosas e segerindo como funciona.
+
