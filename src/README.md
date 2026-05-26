@@ -24,4 +24,11 @@ ollama serve
 
 # 3. Run the app
 streamlit run agente.py
+Observation: If Python are install by windows microsoft, executed the follow step by step to run
+In terminal/PowerShell
+cd "C:\Users\local\DIO"   to search the file
+"python -m streamlit run Agente.py" to start the program ( the command -m will make the python file locate the struture real tham stremlit to executed the code)
 ```
+## Evidence that execution
+<img width="814" height="820" alt="image" src="https://github.com/user-attachments/assets/30309721-1352-4273-8ba4-516c103ffbdb" />
+
